@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+body{
+    margin: 0px;
+    font-family: auto;
+    font-size: 18px;
+    color:brown;
+    line-height:1.7;
+}
+
+#showcase{
+    background-image: url("../welcome_to_the_beach/img/showcase1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size: 20px;
+    color: brown;
+    border: brown 2px solid ;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+
+#showcase .button{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    border: brown 2px solid;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-top: 14px;
+    background-color: brown;
+}
+ #showcase .button:hover{
+    background-color:rgb(93, 0, 0);
+    color: white;
+    font-size: 15px;
+    border-color: rgb(93, 0, 0);
+ }
+ 
+ #section-a{
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+ }
+ #section-b{
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+ }
+ 
+ #section-c{
+    display: flex;
+ }
+
+ #section-c div{
+    padding: 20px;
+ }
+
+ #section-c .box-1 , #section-c .box-3{
+    background: brown;
+    color: #f4f4f4;
+ }
